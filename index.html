@@ -119,10 +119,13 @@
 
           <article class="job">
             <div class="entry-head">
-              <h3>ChaeRok, Audio Development Division — Backend</h3>
+              <h3>
+                ChaeRok, Audio Development Division — Backend
+                <span class="sub">Freelance</span>
+              </h3>
               <span class="date">Jan. 2025 – Present</span>
             </div>
-            <p class="sub">Freelance; backend and infrastructure</p>
+
             <ul class="tight">
               <li>
                 Voice-data storage/retrieval APIs; Docker dev/staging/prod
@@ -134,10 +137,12 @@
 
           <article class="job">
             <div class="entry-head">
-              <h3>Tmax A&amp;C, CA1-1-2 — Backend</h3>
+              <h3>
+                Tmax A&amp;C, CA1-1-2 — Backend
+                <span class="sub">Full-time</span>
+              </h3>
               <span class="date">Aug. 2024 – Oct. 2024</span>
             </div>
-            <p class="sub">Full-time; in-house framework backend development</p>
             <ul class="tight">
               <li>Backend applications on an in-house framework.</li>
               <li>REST API development and frontend integration.</li>
@@ -146,10 +151,13 @@
 
           <article class="job">
             <div class="entry-head">
-              <h3>Republic of Korea Army — Captain, Signal (CIS)</h3>
+              <h3>
+                Republic of Korea Army — Captain, Signal (CIS)
+                <span class="sub">Full-time</span>
+              </h3>
               <span class="date">Mar. 2018 – Mar. 2023</span>
             </div>
-            <p class="sub">Full-time; information systems and networks</p>
+
             <ul class="tight">
               <li>
                 Operated and maintained network and server infrastructure.
@@ -165,10 +173,30 @@
 
           <article class="job">
             <div class="entry-head">
+              <h3>Guided Weapon Mock Environment</h3>
+              <span class="date">Dec. 2025 – Jun. 2026</span>
+            </div>
+            <p class="sub">THE SSEN Embedded Software School, Team lead</p>
+            <ul class="tight">
+              <li>Built GUI, SILS and HILS verification environment;</li>
+              <li>
+                Separated sim timer thread from UI rendering and switched to
+                busy-wait. Sim cycle 34.9 ms to 9.95 ms against 10 ms
+                requirement (0.5% error).
+              </li>
+              <li>
+                Servo control PS (RTOS) and PL (FPGA) with 20 ms fixed-period
+                tasks; critical sections against race on target angle.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="entry-head">
               <h3>Data Consistency in Microservices — HouseOfOngr</h3>
               <span class="date">Jan. 2025 – Sep. 2026</span>
             </div>
-            <p class="sub">ChaeRok, Backend</p>
+            <p class="sub">ChaeRok, Team Member(Backend)</p>
             <ul class="tight">
               <li>
                 Split auth and user services with retry and recovery paths
@@ -179,78 +207,16 @@
 
           <article class="job">
             <div class="entry-head">
-              <h3>Operations Automation and Incident Response — ChaeRok</h3>
-              <span class="date">Jan. 2025 – Sep. 2026</span>
-            </div>
-            <p class="sub">ChaeRok, Backend</p>
-            <ul class="tight">
-              <li>
-                AI-assisted pipeline (collect, analyze, resolve, record)
-                reusing past incident history from DB.
-              </li>
-              <li>Incident handling time −30%.</li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>Large-Scale Data Processing — MatchUP</h3>
+              <h3>Large-Scale Data Collecting — MatchUP</h3>
               <span class="date">Mar. 2024</span>
             </div>
-            <p class="sub">SSAFY team project, Backend</p>
+            <p class="sub">SSAFY team project, Team Member(Backend)</p>
             <ul class="tight">
               <li>
                 Async pipeline collecting 30,000 model-training records for a
                 game recommendation community.
               </li>
               <li>Collection time −81% (65 min to 12 min per 100 users).</li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>Guided Weapon Mock Environment — GUI and SILS</h3>
-              <span class="date">Dec. 2025 – Jun. 2026</span>
-            </div>
-            <p class="sub">THESSEN Embedded Software School, Team lead</p>
-            <ul class="tight">
-              <li>
-                Built GUI and SILS verification environment; separated sim
-                timer thread from UI rendering and switched to busy-wait.
-              </li>
-              <li>
-                Sim cycle 34.9 ms to 9.95 ms against 10 ms requirement (0.5%
-                error).
-              </li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>Guided Weapon Mock Environment — HW and HILS</h3>
-              <span class="date">Dec. 2025 – Jun. 2026</span>
-            </div>
-            <p class="sub">THESSEN Embedded Software School</p>
-            <ul class="tight">
-              <li>
-                Servo control PS (RTOS) and PL (FPGA) with 20 ms fixed-period
-                tasks; critical sections against race on target angle.
-              </li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>Multi-Platform Multi-User Tetris</h3>
-              <span class="date">Dec. 2025 – Mar. 2026</span>
-            </div>
-            <p class="sub">Study project (github.com/leaf-nam/tetris)</p>
-            <ul class="tight">
-              <li>
-                C++ clean architecture reused across Windows, Linux, and
-                WebAssembly; UDP-based 4-player multiplayer.
-              </li>
-              <li>Packet size 800 B to 3 B (−99.6%) via selective send.</li>
             </ul>
           </article>
         </section>
@@ -263,18 +229,12 @@
               <strong>Languages:</strong> Java, C / C++ / C#, JavaScript, SQL
             </li>
             <li>
-              <strong>Backend &amp; Data:</strong> Spring Boot, JPA / QueryDSL /
-              MyBatis, Flyway; MySQL, NoSQL modeling, REST API, MSA (SAGA,
-              batch)
+              <strong>System &amp; OS:</strong> Linux, Embedded Linux, RTOS
             </li>
             <li>
-              <strong>Systems &amp; Infrastructure:</strong> Linux (on-premise),
-              Docker, Git, network operations
+              <strong>Network :</strong> TCP/IP, HTTP, REST API, WebSocket, MQTT
             </li>
-            <li>
-              <strong>Embedded:</strong> Embedded Linux, FreeRTOS, WPF Windows
-              UI
-            </li>
+            <li><strong>ETC:</strong> Docker, AWS, Git</li>
           </ul>
         </section>
 
