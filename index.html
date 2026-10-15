@@ -106,8 +106,8 @@
         <section id="interests">
           <h2>Research Interests</h2>
           <ul class="interest-list">
-            <li>Multi-Robot Systems</li>
-            <li>Algorithm Design and Optimization</li>
+            <li>Multi-Robot Cooperative Decision-Making</li>
+            <li>Distributed Information Fusion and Estimation</li>
             <li>Communication-Aware Distributed Systems</li>
           </ul>
         </section>
@@ -177,15 +177,20 @@
             </div>
             <p class="sub">THE SSEN Embedded Software School, Team lead</p>
             <ul class="tight">
-              <li>Built GUI, SILS and HILS verification environment;</li>
               <li>
-                Separated sim timer thread from UI rendering and switched to
-                busy-wait. Sim cycle 34.9 ms to 9.95 ms against 10 ms
-                requirement (0.5% error).
+                Developed a GUI-based simulation and verification environment
+                for SILS and HILS.
               </li>
               <li>
-                Servo control PS (RTOS) and PL (FPGA) with 20 ms fixed-period
-                tasks; critical sections against race on target angle.
+                Decoupled the simulation timer from UI rendering and optimized
+                timing control, reducing the simulation cycle time from 34.9 ms
+                to 9.95 ms against a 10 ms target (0.5% deviation).
+              </li>
+              <li>
+                Implemented 20 ms periodic servo-control tasks across the
+                processing system (PS, RTOS) and programmable logic (PL, FPGA),
+                using critical sections to prevent race conditions when updating
+                target angles.
               </li>
             </ul>
           </article>
@@ -199,7 +204,11 @@
             <ul class="tight">
               <li>
                 Split auth and user services with retry and recovery paths
-                preserving consistency on partial failure (SAGA, batch jobs).
+                preserving consistency on partial failure.
+              </li>
+              <li>
+                Implemented retry, compensating transactions (SAGA), and batch
+                reconciliation to maintain data consistency.
               </li>
             </ul>
           </article>
@@ -212,12 +221,12 @@
             <p class="sub">SSAFY team project, Team Member</p>
             <ul class="tight">
               <li>
-                Async pipeline collecting 30,000 model-training records for a
-                game recommendation community.
+                Built an asynchronous pipeline to collect 30,000 records for a
+                game recommendation service.
               </li>
               <li>
-                Reduced data Collection time by 81% (65 min to 12 min per 100
-                users).
+                Reduced data collection time from 65 minutes to 12 minutes per
+                100 users (81.5% reduction).
               </li>
             </ul>
           </article>
