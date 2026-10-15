@@ -23,8 +23,11 @@ a {
   color: var(--ink);
 }
 
-/* Web-only toolbar: plain, unobtrusive */
+/* Web-only toolbar: plain, unobtrusive, sticky on scroll */
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
   border-bottom: 1px solid #ccc;
   background: #fff;
 }
@@ -233,10 +236,22 @@ ul.tight li {
   }
 }
 
-/* Print: A4, black on white, no toolbar */
+/* Print: A4, black on white, no toolbar, one H2 section per page */
 @page {
   size: A4 portrait;
   margin: 20mm 18mm;
+}
+.sheet > section {
+  break-before: page;
+}
+.sheet > section:first-of-type {
+  break-before: auto;
+}
+.job {
+  break-inside: avoid;
+}
+h2 {
+  break-after: avoid;
 }
 html.pf .no-print {
   display: none !important;
