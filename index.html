@@ -16,9 +16,9 @@
         <a class="brand" href="#top">Sangyeop Nam <span>CV</span></a>
         <nav class="topnav">
           <a href="#education">Education</a>
-          <a href="#training">Training</a>
           <a href="#interests">Interests</a>
           <a href="#projects">Projects</a>
+          <a href="#training">Training</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#awards">Awards</a>
@@ -99,42 +99,7 @@
           </article>
         </section>
 
-        <!-- 2. Training -->
-        <section id="training">
-          <h2>Training</h2>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>Samsung Software Academy for Youth (SSAFY)</h3>
-              <span class="date">Jul. 2023 – Jun. 2024</span>
-            </div>
-            <p class="sub">Multicampus; 1,600 hours</p>
-            <ul class="tight">
-              <li>
-                Java/Spring-based object-oriented programming, data structures,
-                and algorithms; SQL, MyBatis, and JPA data modeling
-              </li>
-              <li>Git collaboration, code review, and three team projects</li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>THESSEN Embedded Software School</h3>
-              <span class="date">Dec. 2025 – Jun. 2026</span>
-            </div>
-            <p class="sub">RAPA; 1,000 hours</p>
-            <ul class="tight">
-              <li>C / C++ / C# fundamentals and WPF Windows UI</li>
-              <li>
-                Systems programming: FreeRTOS, Embedded Linux, and device
-                driver basics
-              </li>
-            </ul>
-          </article>
-        </section>
-
-        <!-- 3. Research Interests -->
+        <!-- 2. Research Interests -->
         <section id="interests">
           <h2>Research Interests</h2>
           <ul class="interest-list">
@@ -156,7 +121,7 @@
           </ul>
         </section>
 
-        <!-- 4. Projects -->
+        <!-- 3. Projects -->
         <section id="projects">
           <h2>Projects</h2>
 
@@ -167,20 +132,14 @@
             </div>
             <p class="sub">ChaeRok, Backend (contribution 40%)</p>
             <ul class="tight">
-              <li>Built a platform to digitize and store voice data.</li>
               <li>
-                Implemented web application server with Java / Spring Boot;
-                MySQL with JPA and Flyway.
+                Voice-data archiving backend (Java/Spring Boot, MySQL/JPA);
+                MSA consistency via SAGA and batch jobs.
               </li>
               <li>
-                Ensured microservice data consistency via SAGA and batch jobs.
-              </li>
-              <li>
-                Automated AI-assisted incident response, reducing handling time
-                by 30%.
+                AI-assisted incident response automation; handling time −30%.
               </li>
             </ul>
-            <p class="note">Java, Spring Boot, JPA, Flyway, MySQL, Docker.</p>
           </article>
 
           <article class="job">
@@ -190,14 +149,9 @@
             </div>
             <p class="sub">Tmax WAPL, Backend (contribution 25%)</p>
             <ul class="tight">
-              <li>Developed a free-board module for the office intranet.</li>
-              <li>Built APIs with Java and an in-house framework.</li>
-              <li>
-                Adopted QueryDSL, reducing dynamic queries by over 50%;
-                resolved N+1 problems, improving read performance by 40%.
-              </li>
+              <li>Intranet free-board APIs (Java, QueryDSL/JPA).</li>
+              <li>Dynamic queries −50%+; read performance +40% via N+1 fix.</li>
             </ul>
-            <p class="note">Java, QueryDSL, JPA, REST API.</p>
           </article>
 
           <article class="job">
@@ -207,11 +161,41 @@
             </div>
             <p class="sub">Tmax WAPL, Backend (contribution 20%)</p>
             <ul class="tight">
-              <li>Designed next-generation community board architecture.</li>
-              <li>NoSQL data modeling for unstructured content.</li>
-              <li>Designed an AI data pipeline and event-driven structure.</li>
+              <li>
+                Next-gen board architecture; NoSQL modeling for unstructured
+                content.
+              </li>
+              <li>AI data pipeline with event-driven structure.</li>
             </ul>
-            <p class="note">NoSQL modeling, event-driven design.</p>
+          </article>
+        </section>
+
+        <!-- 4. Training -->
+        <section id="training">
+          <h2>Training</h2>
+
+          <article class="job">
+            <div class="entry-head">
+              <h3>Samsung Software Academy for Youth (SSAFY)</h3>
+              <span class="date">Jul. 2023 – Jun. 2024</span>
+            </div>
+            <p class="sub">Multicampus; 1,600 hours</p>
+            <ul class="tight">
+              <li>Java/Spring, data structures/algorithms; SQL/MyBatis/JPA modeling.</li>
+              <li>Git collaboration, code review, three team projects.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="entry-head">
+              <h3>THESSEN Embedded Software School</h3>
+              <span class="date">Dec. 2025 – Jun. 2026</span>
+            </div>
+            <p class="sub">RAPA; 1,000 hours</p>
+            <ul class="tight">
+              <li>C / C++ / C# fundamentals and WPF Windows UI.</li>
+              <li>FreeRTOS, Embedded Linux, device driver basics.</li>
+            </ul>
           </article>
         </section>
 
@@ -226,9 +210,11 @@
             </div>
             <p class="sub">Freelance; backend and infrastructure</p>
             <ul class="tight">
-              <li>Voice-data storage and retrieval backend APIs.</li>
+              <li>
+                Voice-data storage/retrieval APIs; Docker dev/staging/prod
+                environments.
+              </li>
               <li>On-premise Linux server and network administration.</li>
-              <li>Docker-based development, staging, and production environments.</li>
             </ul>
           </article>
 
