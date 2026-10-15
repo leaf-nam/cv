@@ -97,8 +97,18 @@ a {
 
 /* Header: centered, standard CV */
 .resume-head {
+  position: relative;
   text-align: center;
   margin-bottom: 8px;
+}
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 110px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 1px solid #999;
 }
 .title-row h1 {
   font-size: 22pt;
@@ -226,6 +236,11 @@ ul.tight li {
 @media screen and (max-width: 640px) {
   .topnav {
     display: none;
+  }
+  .photo {
+    position: static;
+    display: block;
+    margin: 0 auto 8px;
   }
   .entry-head {
     flex-direction: column;
