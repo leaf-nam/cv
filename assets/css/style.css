@@ -236,7 +236,7 @@ ul.tight li {
   }
 }
 
-/* Print: A4, black on white, no toolbar, one H2 section per page */
+/* Print: A4, black on white, no toolbar, natural page flow */
 @page {
   size: A4 portrait;
   margin: 20mm 18mm;
