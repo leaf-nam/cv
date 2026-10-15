@@ -77,6 +77,17 @@
 
           <article class="job">
             <div class="entry-head">
+              <h3>The SSEN Embedded Software School</h3>
+              <span class="date">Dec. 2025 – Jun. 2026</span>
+            </div>
+            <p class="sub">RAPA; 1,000 hours</p>
+            <ul class="tight">
+              <li>C / C++ / C# fundamentals and WPF Windows UI.</li>
+              <li>FreeRTOS, Embedded Linux, device driver basics.</li>
+            </ul>
+          </article>
+          <article class="job">
+            <div class="entry-head">
               <h3>Samsung Software Academy for Youth (SSAFY)</h3>
               <span class="date">Jul. 2023 – Jun. 2024</span>
             </div>
@@ -87,18 +98,6 @@
                 modeling.
               </li>
               <li>Git collaboration, code review, three team projects.</li>
-            </ul>
-          </article>
-
-          <article class="job">
-            <div class="entry-head">
-              <h3>THESSEN Embedded Software School</h3>
-              <span class="date">Dec. 2025 – Jun. 2026</span>
-            </div>
-            <p class="sub">RAPA; 1,000 hours</p>
-            <ul class="tight">
-              <li>C / C++ / C# fundamentals and WPF Windows UI.</li>
-              <li>FreeRTOS, Embedded Linux, device driver basics.</li>
             </ul>
           </article>
         </section>
@@ -166,46 +165,92 @@
 
           <article class="job">
             <div class="entry-head">
-              <h3>House of Ongal — Voice Archiving Platform</h3>
+              <h3>Data Consistency in Microservices — HouseOfOngr</h3>
               <span class="date">Jan. 2025 – Sep. 2026</span>
             </div>
-            <p class="sub">ChaeRok, Backend (contribution 40%)</p>
+            <p class="sub">ChaeRok, Backend</p>
             <ul class="tight">
               <li>
-                Voice-data archiving backend (Java/Spring Boot, MySQL/JPA); MSA
-                consistency via SAGA and batch jobs.
-              </li>
-              <li>
-                AI-assisted incident response automation; handling time −30%.
+                Split auth and user services with retry and recovery paths
+                preserving consistency on partial failure (SAGA, batch jobs).
               </li>
             </ul>
           </article>
 
           <article class="job">
             <div class="entry-head">
-              <h3>
-                Seoul Metropolitan Office of Education — Intranet Community
-              </h3>
-              <span class="date">Aug. 2024 – Oct. 2024</span>
+              <h3>Operations Automation and Incident Response — ChaeRok</h3>
+              <span class="date">Jan. 2025 – Sep. 2026</span>
             </div>
-            <p class="sub">Tmax WAPL, Backend (contribution 25%)</p>
+            <p class="sub">ChaeRok, Backend</p>
             <ul class="tight">
-              <li>Intranet free-board APIs (Java, QueryDSL/JPA).</li>
-              <li>Dynamic queries −50%+; read performance +40% via N+1 fix.</li>
+              <li>
+                AI-assisted pipeline (collect, analyze, resolve, record)
+                reusing past incident history from DB.
+              </li>
+              <li>Incident handling time −30%.</li>
             </ul>
           </article>
 
           <article class="job">
             <div class="entry-head">
-              <h3>Catholic Community Board — Next-Generation Platform</h3>
-              <span class="date">Sep. 2024 – Oct. 2024</span>
+              <h3>Large-Scale Data Processing — MatchUP</h3>
+              <span class="date">Mar. 2024</span>
             </div>
-            <p class="sub">Tmax WAPL, Backend (contribution 20%)</p>
+            <p class="sub">SSAFY team project, Backend</p>
             <ul class="tight">
               <li>
-                Next-gen board architecture and AI data pipeline; NoSQL modeling
-                for unstructured content.
+                Async pipeline collecting 30,000 model-training records for a
+                game recommendation community.
               </li>
+              <li>Collection time −81% (65 min to 12 min per 100 users).</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="entry-head">
+              <h3>Guided Weapon Mock Environment — GUI and SILS</h3>
+              <span class="date">Dec. 2025 – Jun. 2026</span>
+            </div>
+            <p class="sub">THESSEN Embedded Software School, Team lead</p>
+            <ul class="tight">
+              <li>
+                Built GUI and SILS verification environment; separated sim
+                timer thread from UI rendering and switched to busy-wait.
+              </li>
+              <li>
+                Sim cycle 34.9 ms to 9.95 ms against 10 ms requirement (0.5%
+                error).
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="entry-head">
+              <h3>Guided Weapon Mock Environment — HW and HILS</h3>
+              <span class="date">Dec. 2025 – Jun. 2026</span>
+            </div>
+            <p class="sub">THESSEN Embedded Software School</p>
+            <ul class="tight">
+              <li>
+                Servo control PS (RTOS) and PL (FPGA) with 20 ms fixed-period
+                tasks; critical sections against race on target angle.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="entry-head">
+              <h3>Multi-Platform Multi-User Tetris</h3>
+              <span class="date">Dec. 2025 – Mar. 2026</span>
+            </div>
+            <p class="sub">Study project (github.com/leaf-nam/tetris)</p>
+            <ul class="tight">
+              <li>
+                C++ clean architecture reused across Windows, Linux, and
+                WebAssembly; UDP-based 4-player multiplayer.
+              </li>
+              <li>Packet size 800 B to 3 B (−99.6%) via selective send.</li>
             </ul>
           </article>
         </section>
