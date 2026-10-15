@@ -258,7 +258,7 @@ ul.tight li {
 /* Print: A4, black on white, no toolbar, natural page flow */
 @page {
   size: A4 portrait;
-  margin: 20mm 18mm;
+  margin: 15mm 15mm;
 }
 /* Print pagination: never strand a heading or split an entry;
    the browser moves content to the next page when it would overflow */
@@ -279,23 +279,90 @@ html.pf .sheet {
   margin: 0;
 }
 html.pf body {
-  font-size: 11pt;
-  line-height: 1.4;
+  font-size: 10.5pt;
+  line-height: 1.35;
 }
 html.pf a {
   text-decoration: none;
+}
+html.pf .title-row h1 {
+  font-size: 18pt;
+}
+html.pf .headline,
+html.pf .meta,
+html.pf .sub,
+html.pf .note {
+  font-size: 10pt;
+}
+html.pf .photo {
+  width: 85px;
+}
+html.pf .resume-head {
+  min-height: 120px;
+}
+html.pf h2 {
+  font-size: 12pt;
+  margin: 12px 0 5px;
+}
+html.pf h3 {
+  font-size: 11pt;
+  margin: 7px 0 1px;
+}
+html.pf ul.tight,
+html.pf .interest-list,
+html.pf .skill-list {
+  font-size: 10pt;
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+html.pf .job {
+  margin-bottom: 5px;
 }
 @media print {
   .no-print {
     display: none !important;
   }
   body {
-    font-size: 11pt;
+    font-size: 10.5pt;
+    line-height: 1.35;
   }
   .wrap {
     padding: 0;
   }
   a {
     text-decoration: none;
+  }
+  .title-row h1 {
+    font-size: 18pt;
+  }
+  .headline,
+  .meta,
+  .sub,
+  .note {
+    font-size: 10pt;
+  }
+  .photo {
+    width: 85px;
+  }
+  .resume-head {
+    min-height: 120px;
+  }
+  h2 {
+    font-size: 12pt;
+    margin: 12px 0 5px;
+  }
+  h3 {
+    font-size: 11pt;
+    margin: 7px 0 1px;
+  }
+  ul.tight,
+  .interest-list,
+  .skill-list {
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-bottom: 4px;
+  }
+  .job {
+    margin-bottom: 5px;
   }
 }

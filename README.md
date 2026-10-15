@@ -26,7 +26,7 @@ python3 -m http.server 8000
 1. Click `Export PDF` (top right)
 2. Chrome print settings:
    - Destination: Save as PDF
-   - Paper: A4, Margins: Default (page margins come from the `@page` rule: 20mm top/bottom, 18mm sides)
+   - Paper: A4, Margins: Default (page margins come from the `@page` rule: 15mm all sides)
    - Background graphics: ON
    - Headers/footers: OFF
 
