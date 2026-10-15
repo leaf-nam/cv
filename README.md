@@ -7,11 +7,12 @@ Live: `https://leaf-nam.github.io/cv/` (after first push + Pages enable)
 ## Sections (in order)
 
 1. Education
-2. Research Interests
-3. Projects
-4. Experience
-5. Technical Skills
-6. Awards & Certifications
+2. Training
+3. Research Interests
+4. Professional Experience
+5. Technical Projects
+6. Technical Skills
+7. Awards & Certifications
 
 ## Local preview
 
@@ -25,11 +26,12 @@ python3 -m http.server 8000
 1. Click `Export PDF` (top right)
 2. Chrome print settings:
    - Destination: Save as PDF
-   - Paper: A4, Margins: None (margins are built into the page)
+   - Paper: A4, Margins: Default (page margins come from the `@page` rule: 20mm top/bottom, 18mm sides)
    - Background graphics: ON
    - Headers/footers: OFF
 
-Auto-fit-to-one-page logic is shared with `resume` (`assets/js/main.js`).
+Sections flow continuously; headings never strand at a page bottom and
+entries never split across pages (`break-after: avoid` / `break-inside: avoid`).
 
 ## Deploy
 

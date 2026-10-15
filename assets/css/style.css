@@ -241,12 +241,8 @@ ul.tight li {
   size: A4 portrait;
   margin: 20mm 18mm;
 }
-.sheet > section {
-  break-before: page;
-}
-.sheet > section:first-of-type {
-  break-before: auto;
-}
+/* Print pagination: never strand a heading or split an entry;
+   the browser moves content to the next page when it would overflow */
 .job {
   break-inside: avoid;
 }
